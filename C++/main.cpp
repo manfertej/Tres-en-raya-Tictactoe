@@ -10,7 +10,6 @@ int main() {
 	int mov;
 
 	while (!ta.fin()) {
-		system("cls");
 		ta.imprimir();
 		
 		
@@ -22,7 +21,6 @@ int main() {
 		
 		if (ta.fin()) break;
 
-		system("cls");
 		ta.imprimir();
 
 		ta.marcar(iaMov(ta), 'O');
@@ -30,7 +28,6 @@ int main() {
 	}
 
 
-	system("cls");
 	ta.imprimir();
 
 	if (ta.winner() != ' ') {
@@ -38,8 +35,7 @@ int main() {
 	}
 	else cout <<endl << endl << "Empate";
 
-	cout << "\n\n\n\n\n";
-
+	cout << "\n\n\n";
 
 	return 0;
 }
