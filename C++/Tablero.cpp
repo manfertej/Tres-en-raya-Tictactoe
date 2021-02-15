@@ -120,7 +120,7 @@ int minimax(Tablero& t, const bool& max) {
 
 	
 	t.check();
-	if (t.wiiner() != NULL) {
+	if (t.winner() != NULL) {
 		if (t.winner() == 'X') resultado = -1;
 		if (t.winner() == 'O') resultado = 1;
 		if (t.winner() == ' ') resultado = 0;
