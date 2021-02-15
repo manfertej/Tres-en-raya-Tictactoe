@@ -15,6 +15,7 @@ Tablero::Tablero() {
 
 
 void Tablero::imprimir() {
+	system("cls");
 	for (int i = 0; i < 3; i++) {
 		cout << " " << this->t[i][0] << " | " << this->t[i][1] << " | " << this->t[i][2] << endl;
 		
