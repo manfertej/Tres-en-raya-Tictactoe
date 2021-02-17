@@ -3,7 +3,7 @@ Un antiguo trabajo de universidad. Una IA para jugar al tres en raya usando el a
 
 
 Tareas pendientes:
-    -Implementar Porfundidad
+    -Implementar Porfundidad: 
     Cuando encuentra dos caminos para ganar, elige el primero que encuentra, sin tener en cuenta la cantidad de movimientos.
     -Poda alfa-beta
     
